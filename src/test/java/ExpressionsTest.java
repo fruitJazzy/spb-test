@@ -45,7 +45,7 @@ public class ExpressionsTest {
     @BeforeClass
     public static void readFile() {
         try {
-            data = Files.readAllLines(Paths.get("src/main/resources/dataexample.txt"));
+            data = Files.readAllLines(Paths.get("src/main/resources/data.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         }
